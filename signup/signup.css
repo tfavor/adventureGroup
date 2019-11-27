@@ -1,0 +1,57 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+}
+.navbar {
+    height: 44px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+.navbar > h1 {
+    margin: 0px 0px 0px 20px;
+    font-size: 20px;
+}
+.navbar > button {
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;
+}
+main {
+    height: 100%;
+}
+.head {
+    background-color: lightgray;
+    height: 100%;
+    text-align: center;
+}
+.signup-form {
+    padding-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup-form > label {
+    font-size: 35px;
+}
+input[type=text] {
+    border-radius: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    width: 319px;
+    height: 25px;
+    border: none;
+}
+button {
+    margin-top: 5px;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
